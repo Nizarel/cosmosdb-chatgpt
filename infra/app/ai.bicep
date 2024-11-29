@@ -6,10 +6,10 @@ param tags object = {}
 
 var deployments = [
   {
-    name: 'completions'
+    name: 'gpt-4o'
     skuCapacity: 10
-    modelName: 'gpt-35-turbo'
-    modelVersion: '0301'
+    modelName: 'gpt-4o'
+    modelVersion: '2024-05-13'
   }
   {
     name: 'embeddings'
